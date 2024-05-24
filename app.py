@@ -44,9 +44,6 @@ def extract_and_edit_url(redirected_url):
 st.title("Krishikosh Thesis Downloader")
 st.markdown("---")
 
-# Image
-st.image("your_image.png", use_column_width=True)  # Replace "your_image.png" with your image file path
-
 input_url = st.text_input("Enter the URL:")
 st.markdown("---")
 
